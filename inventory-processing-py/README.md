@@ -27,7 +27,7 @@ The exercise is divided to two main pieces:
 6.  ✅ Add a name column to the output that is a concatenation of the item and
     itemextra columns
 7.  ✅ The output should only contain item that were sold during 2020
-8.  Add a properties column to the output that will contain a JSON of a dict
+8.  ✅ Add a properties column to the output that will contain a JSON of a dict
     containing the department, vendor and description
 9.  Add a tags field to the output that will contain the following tags:
     * `duplicate_sku` if the input file contains the same ItemNum for multiple rows.

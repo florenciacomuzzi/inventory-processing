@@ -1,5 +1,3 @@
-from http.client import responses
-
 import requests
 
 from bs4 import BeautifulSoup

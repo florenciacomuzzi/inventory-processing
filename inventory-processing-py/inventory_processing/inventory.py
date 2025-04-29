@@ -83,14 +83,11 @@ def process_inventory(inventory_data, output_file):
 
             name = row['ItemName'] + row['ItemName_Extra'] # TODO remove spaces?
 
-            # Add a properties column to the output that will contain a JSON of a dict
-            #     containing the department, vendor and description
             properties = {
                 'department': row['Dept_ID'],
                 'vendor': row['Vendor_Number'],
                 'description': row['Description']
             }
-
 
             writer.writerow({
                 'upc': row['ItemNum'],
