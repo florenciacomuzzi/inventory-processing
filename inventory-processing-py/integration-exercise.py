@@ -5,15 +5,14 @@ import argparse
 import os
 
 from inventory_processing.api_helper import ApiHelper
-from inventory_processing.file_utils import remove_line, remove_empty_lines, remove_nontable_lines
+from inventory_processing.stream_lines_utils import remove_line, remove_empty_lines, remove_nontable_lines
 from inventory_processing.inventory import process_inventory, dict_read_csv
 from inventory_processing.object_utils import extract_inventory_object_details
 from inventory_processing.s3_helper import S3Helper
 
 STORAGE_API_URL = os.environ.get('STORAGE_API_URL', 'http://localhost:3000')
-SOURCE_URL = 'https://bitbucket.org/cityhive/jobs/src/master/integration-eng/integration-entryfile.html'
-LOCAL_FILE = 'inventory_export.csv'
-PROCESSED_FILE = 'processed_inventory.csv'
+SOURCE_URL = os.environ.get('SOURCE_URL', 'https://bitbucket.org/cityhive/jobs/src/master/integration-eng/integration-entryfile.html')
+PROCESSED_FILE_PATH = os.environ.get('PROCESSED_FILE_PATH', 'processed_inventory.csv')
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description='Process inventory data from S3')
@@ -52,7 +51,7 @@ if __name__ == '__main__':
 
         rows = dict_read_csv(key_stream)
 
-        processed_rows = process_inventory(rows, PROCESSED_FILE)
+        processed_rows = process_inventory(rows, PROCESSED_FILE_PATH)
 
         api_helper = ApiHelper(STORAGE_API_URL)
         api_helper.post('/inventory_units', processed_rows)

@@ -1,8 +1,8 @@
 import collections
 import csv
-import json
 from datetime import datetime
-from typing import Union, TextIO, StringIO
+from io import StringIO
+from typing import Union, TextIO
 import requests
 
 
