@@ -53,3 +53,53 @@ The exercise is divided to two main pieces:
     * ✅ `upload` will upload the parsed data as a JSON array to the API
     * ✅ `list_uploads` will call the inventory_uploads listing endpoint and print the result
 
+## Running the Application
+
+### Using Docker Compose
+
+1. Make sure you have Docker and Docker Compose installed on your system
+2. Start the services:
+   ```bash
+   docker-compose up -d
+   ```
+   This will start:
+   - MongoDB database
+   - Rails API server (accessible at http://localhost:3000)
+
+### Running the Python Script
+
+The Python script can be run with different commands depending on what you want to do:
+
+1. Generate a CSV file with the processed data:
+   ```bash
+   python inventory-processing-py/integration-exercise.py --generate_csv
+   ```
+
+2. Upload the processed data to the API:
+   ```bash
+   python inventory-processing-py/integration-exercise.py --generate_csv --upload
+   ```
+
+3. List all inventory uploads:
+   ```bash
+   python inventory-processing-py/integration-exercise.py --list_uploads
+   ```
+
+Note: Make sure the Rails API server is running (via Docker Compose) when using the `--upload` or `--list_uploads` commands.
+
+### Environment Variables
+
+You can customize the behavior of the Python script by setting these environment variables:
+- `STORAGE_API_URL`: The URL of the Rails API (default: http://localhost:3000)
+- `SOURCE_URL`: The URL of the source HTML file (default: https://bitbucket.org/cityhive/jobs/src/master/integration-eng/integration-entryfile.html)
+- `PROCESSED_FILE_PATH`: Path where the processed CSV will be saved (default: processed_inventory.csv)
+- `SAVE_SOURCE_DATA`: Set to 'true' to save the raw stream from S3 to a file (default: false)
+- `SOURCE_DATA_PATH`: Path where the raw stream will be saved if SAVE_RAW_STREAM is true (default: raw_inventory.csv)
+
+Example usage:
+```bash
+export SAVE_SOURCE_DATA=true
+export SOURCE_DATA_PATH=my_raw_data.csv
+python inventory-processing-py/integration-exercise.py --generate_csv
+```
+

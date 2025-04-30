@@ -2,6 +2,7 @@
 # 2. Then, parse the URL for the csv file located in the S3 bucket (as part of the script, not by hand)
 # 3. Make a GET request to Amazon's S3 with the details from #2 and save the to `local_file_path`
 import argparse
+import io
 import os
 
 from inventory_processing.api_helper import ApiHelper
@@ -15,6 +16,8 @@ SOURCE_URL = os.environ.get(
     'SOURCE_URL', 'https://bitbucket.org/cityhive/jobs/src/master/integration-eng/integration-entryfile.html')
 PROCESSED_FILE_PATH = os.environ.get(
     'PROCESSED_FILE_PATH', 'processed_inventory.csv')
+SAVE_SOURCE_DATA = os.environ.get('SAVE_SOURCE_DATA', 'true').lower() == 'true'
+SOURCE_DATA_PATH = os.environ.get('SOURCE_DATA_PATH', 'raw_inventory.csv')
 
 
 def parse_arguments():
@@ -47,6 +50,12 @@ if __name__ == '__main__':
         bucket = S3Helper(s3_details['bucket'], s3_details['region_code'])
         key_stream = bucket.download_key_with_presigned_url(
             s3_details['object_path'])
+        
+        if SAVE_SOURCE_DATA:
+            response_copy = io.BytesIO(key_stream.content)
+            with open(SOURCE_DATA_PATH, 'w') as f:
+                for line in response_copy:
+                    f.write(line.decode('utf-8'))
 
     if args.upload:
         # TODO optimize
