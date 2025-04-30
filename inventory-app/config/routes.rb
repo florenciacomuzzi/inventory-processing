@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  # Redirect /inventory_uploads to /inventory_units
+  get '/inventory_uploads', to: redirect('/inventory_units')
+  post '/inventory_uploads', to: redirect('/inventory_units')
+  
   resources :inventory_units do
     collection do
       post :batch_create

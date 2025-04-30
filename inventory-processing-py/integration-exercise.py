@@ -77,6 +77,10 @@ if __name__ == '__main__':
         processed_rows = process_inventory(rows, PROCESSED_FILE_PATH)
 
         api_helper = ApiHelper(STORAGE_API_URL)
-        api_helper.post('/inventory_units', processed_rows)
+        api_helper.post('/inventory_uploads', processed_rows)
+
+    if args.list_uploads:
+        api_helper = ApiHelper(STORAGE_API_URL)
+        print(api_helper.get('/inventory_uploads'))
 
     print("Finished!")

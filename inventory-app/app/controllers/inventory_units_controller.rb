@@ -5,6 +5,7 @@ class InventoryUnitsController < ApplicationController
   # GET /inventory_units or /inventory_units.json
   def index
     @inventory_units = InventoryUnit.all
+    render json: @inventory_units
   end
 
   # GET /inventory_units/1 or /inventory_units/1.json

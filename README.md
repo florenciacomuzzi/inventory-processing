@@ -60,7 +60,7 @@ The exercise is divided to two main pieces:
 1. Make sure you have Docker and Docker Compose installed on your system
 2. Start the services:
    ```bash
-   docker-compose up -d
+   docker compose up -d
    ```
    This will start:
    - MongoDB database
