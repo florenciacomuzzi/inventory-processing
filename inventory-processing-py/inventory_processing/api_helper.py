@@ -58,6 +58,19 @@ class ApiHelper:
             print(f"Warning: Could not get CSRF token: {e}")
 
     def get(self, endpoint: str, params: dict = None):
+        """
+        Make a GET request to the specified endpoint.
+
+        Args:
+            endpoint (str): The API endpoint to call
+            params (dict, optional): Query parameters to include in the request
+
+        Returns:
+            dict: The JSON response from the API
+
+        Raises:
+            requests.exceptions.HTTPError: If the request fails
+        """
         url = f"{self.base_url}/{self._clean_endpoint(endpoint)}"
         response = self.session.get(url, params=params)
         response.raise_for_status()

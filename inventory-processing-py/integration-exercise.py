@@ -21,6 +21,15 @@ SOURCE_DATA_PATH = os.environ.get('SOURCE_DATA_PATH', 'raw_inventory.csv')
 
 
 def parse_arguments():
+    """
+    Parse command line arguments for the inventory processing script.
+
+    Returns:
+        argparse.Namespace: Parsed command line arguments with the following attributes:
+            - generate_csv (bool): Whether to generate the CSV file with parsed data
+            - upload (bool): Whether to upload the parsed data to the API
+            - list_uploads (bool): Whether to list previous uploads
+    """
     parser = argparse.ArgumentParser(
         description='Process inventory data from S3')
     parser.add_argument('--generate_csv',

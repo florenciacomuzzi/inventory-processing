@@ -6,6 +6,21 @@ from inventory_processing.utils import transform_url_to_raw
 
 
 def extract_inventory_object_details(url):
+    """
+    Extract S3 bucket, region, and object path details from a Bitbucket HTML page.
+
+    Args:
+        url (str): The URL of the Bitbucket HTML page containing S3 information.
+
+    Returns:
+        dict: A dictionary containing:
+            - bucket (str): The S3 bucket name
+            - region_code (str): The AWS region code
+            - object_path (str): The path to the object in the S3 bucket
+
+    Raises:
+        ValueError: If required S3 information cannot be found in the HTML
+    """
     url = transform_url_to_raw(url)
 
     response = requests.get(url)
