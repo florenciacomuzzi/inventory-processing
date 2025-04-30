@@ -5,7 +5,11 @@ class InventoryUnitsController < ApplicationController
   # GET /inventory_units or /inventory_units.json
   def index
     @inventory_units = InventoryUnit.all
-    render json: @inventory_units
+    
+    respond_to do |format|
+      format.html # This will render the default HTML template
+      format.json { render json: @inventory_units }
+    end
   end
 
   # GET /inventory_units/1 or /inventory_units/1.json
