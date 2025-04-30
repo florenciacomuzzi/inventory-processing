@@ -41,7 +41,7 @@ The exercise is divided to two main pieces:
 2. ✅ The app should have a single model in it - the `InventoryUnit` model that represent a single row of inventory data along with information that will be relevant for record keeping: 
     * Creation time of the record
     * Batch identifier that is shared between all items created as part of the same API call
-3. Expose two endpoints:
+3. ✅ Expose two endpoints:
     * `POST inventory_uploads.json` that receives a parsed JSON from the python code and creates InventoryUnits from it
     * `GET inventory_uploads.json` that will return a JSON where each element is has:
         * `batch_id` the shared ID between all the inventory units created by the same API call
