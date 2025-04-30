@@ -30,15 +30,15 @@ The exercise is divided to two main pieces:
 8.  ✅ Add a properties column to the output that will contain a JSON of a dict
     containing the department, vendor and description
 9.  Add a tags field to the output that will contain the following tags:
-    * `duplicate_sku` if the input file contains the same ItemNum for multiple rows.
+    * ✅ `duplicate_sku` if the input file contains the same ItemNum for multiple rows.
     * `high_margin` if the margin on the item is more than 30%
     * `low_margin` if the margin on the item is less than 30%
-10. Instead of saving the file locally and then parsing it, add another flow to the script that passes the downloaded content directly to the CSV parser.
+10. ✅ Instead of saving the file locally and then parsing it, add another flow to the script that passes the downloaded content directly to the CSV parser.
 
 ## Storage and Validation API
 
-1. Create a new Ruby on Rails API project that uses the `Mongoid` gem as the ORM module instead of `ActiveRecord`
-2. The app should have a single model in it - the `InventoryUnit` model that represent a single row of inventory data along with information that will be relevant for record keeping: 
+1. ✅ Create a new Ruby on Rails API project that uses the `Mongoid` gem as the ORM module instead of `ActiveRecord`
+2. ✅ The app should have a single model in it - the `InventoryUnit` model that represent a single row of inventory data along with information that will be relevant for record keeping: 
     * Creation time of the record
     * Batch identifier that is shared between all items created as part of the same API call
 3. Expose two endpoints:
@@ -49,7 +49,7 @@ The exercise is divided to two main pieces:
         * `average_price` the average price of the units
         * `total_quantity` the sum of all quantities across the inventory units in that batch
 4. Update the python code such that it receives one of 3 inputs: 
-    * `generate_csv` will generate the CSV file with the parsed data
-    * `upload` will upload the parsed data as a JSON array to the API
-    * `list_uploads` will call the inventory_uploads listing endpoint and print the result
-    
+    * ✅ `generate_csv` will generate the CSV file with the parsed data
+    * ✅ `upload` will upload the parsed data as a JSON array to the API
+    * ✅ `list_uploads` will call the inventory_uploads listing endpoint and print the result
+

@@ -1,0 +1,50 @@
+services:
+  conntest:
+    container_name: mongodb-conntest
+    image: mongodb/mongodb-community-server:6.0-ubi8
+    environment:
+      - CONN_STR=mongodb://user:pass@mongodb
+    command: '/bin/bash -c "sleep 5; mongosh $$CONN_STR --eval \"show dbs;\""'
+    networks:
+      - common
+    depends_on:
+      - mongodb
+  mongodb:
+    image: mongodb/mongodb-community-server:6.0-ubi8
+    container_name: mongodb
+    restart: always
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=user
+      - MONGO_INITDB_ROOT_PASSWORD=pass
+    ports:
+      - '27017:27017'
+    volumes:
+      - mongodb:/data/db
+    networks:
+      - common
+
+  inventory-app:
+    container_name: inventory-app
+    build:
+      context: inventory-app
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
+    environment:
+      - MONGO_URI=mongodb://user:pass@mongodb:27017/inventory?authSource=admin
+      - RAILS_ENV=development
+      - RAILS_MASTER_KEY=${RAILS_MASTER_KEY}
+      - RAILS_SERVE_STATIC_FILES=true
+      - BINDING=0.0.0.0
+      - PORT=80
+    command: bundle exec puma -b tcp://0.0.0.0:80
+    depends_on:
+      - mongodb
+    networks:
+      - common
+
+networks:
+  common:
+
+volumes:
+  mongodb:

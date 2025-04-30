@@ -66,24 +66,23 @@ class S3Helper(object):
             path = path.replace('//', '/')
         return path
 
-    def download_key_with_presigned_url(self, key, dest_path, expiration=3600):
+    def download_key_with_presigned_url(self, key, expiration=3600):
         """Download a single S3 key (file) using direct HTTP access without AWS authentication.
         Note: This will only work for public S3 buckets or objects that have been made publicly accessible.
 
         Args:
             key (str):          S3 key (everything except the bucket)
-            dest_path (str):    Local destination path
             expiration (int):   Not used, kept for backward compatibility
+
+        Returns:
+            requests.Response:  Response object containing the stream of data
         """
         key = self._clean_s3_path(key)
 
         # Construct the public S3 URL
         url = f"https://{self.bucket_name}.s3.amazonaws.com/{key}"
 
-        # Download using requests
-        response = requests.get(url)
+        # Return the response object which can be streamed
+        response = requests.get(url, stream=True)
         response.raise_for_status()
-
-        # Save to file
-        with open(dest_path, 'wb') as f:
-            f.write(response.content)
+        return response

@@ -1,0 +1,171 @@
+<%= form_with(model: inventory_unit, url: inventory_units_path, method: :post, local: true) do |form| %>
+  <% if inventory_unit.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(inventory_unit.errors.count, "error") %> prohibited this inventory_unit from being saved:</h2>
+
+      <ul>
+        <% inventory_unit.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div id="inventory-units-container-0">
+    <div class="inventory-unit-fields" data-index="0">
+      <h3>Inventory Unit 1</h3>
+      <div>
+        <label for="inventory_units_0_upc">UPC</label>
+        <input type="text" name="inventory_units[0][upc]" id="inventory_units_0_upc"><br>
+      </div>
+
+      <div>
+        <label for="inventory_units_0_price">Price</label>
+        <input type="text" name="inventory_units[0][price]" id="inventory_units_0_price"><br>
+      </div>
+
+      <div>
+        <label for="inventory_units_0_quantity">Quantity</label>
+        <input type="text" name="inventory_units[0][quantity]" id="inventory_units_0_quantity"><br>
+      </div>
+
+      <div>
+        <label for="inventory_units_0_department_id">Department ID</label>
+        <input type="text" name="inventory_units[0][department_id]" id="inventory_units_0_department_id"><br>
+      </div>
+
+      <div>
+        <label for="inventory_units_0_internal_id">Internal ID</label>
+        <input type="text" name="inventory_units[0][internal_id]" id="inventory_units_0_internal_id"><br>
+      </div>
+
+      <div>
+        <label for="inventory_units_0_name">Name</label>
+        <input type="text" name="inventory_units[0][name]" id="inventory_units_0_name"><br>
+      </div>
+
+      <div>
+        <label>Properties</label>
+        <div class="properties-container" style="
+          border: 1px solid #ddd;
+          padding: 15px;
+          margin: 10px 0;
+          border-radius: 4px;
+          background-color: #f9f9f9;
+        ">
+          <div style="margin-bottom: 10px;">
+            <label for="inventory_units_0_properties_department" style="display: block; margin-bottom: 5px; font-weight: 500;">Department</label>
+            <input type="text" name="inventory_units[0][properties][department]" id="inventory_units_0_properties_department" class="property-input" style="
+              width: 100%;
+              padding: 8px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+            ">
+          </div>
+          <div style="margin-bottom: 10px;">
+            <label for="inventory_units_0_properties_vendor" style="display: block; margin-bottom: 5px; font-weight: 500;">Vendor</label>
+            <input type="text" name="inventory_units[0][properties][vendor]" id="inventory_units_0_properties_vendor" class="property-input" style="
+              width: 100%;
+              padding: 8px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+            ">
+          </div>
+          <div>
+            <label for="inventory_units_0_properties_description" style="display: block; margin-bottom: 5px; font-weight: 500;">Description</label>
+            <input type="text" name="inventory_units[0][properties][description]" id="inventory_units_0_properties_description" class="property-input" style="
+              width: 100%;
+              padding: 8px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+            ">
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <fieldset class="tags-container" aria-labelledby="tags_legend" style="
+          border: 1px solid #ddd;
+          padding: 15px;
+          margin: 10px 0;
+          border-radius: 4px;
+          background-color: #f9f9f9;
+        ">
+          <legend id="tags_legend">Tags</legend>
+          <div style="display: flex; flex-direction: column; gap: 10px;">
+            <label style="display: flex; align-items: center; gap: 8px;" for="inventory_units_0_tags_duplicate_sku">
+              <input type="checkbox" name="inventory_units[0][tags][]" value="duplicate_sku" id="inventory_units_0_tags_duplicate_sku" aria-label="Duplicate SKU">
+              <span>Duplicate SKU (same ItemNum in multiple rows)</span>
+            </label>
+            <label style="display: flex; align-items: center; gap: 8px;" for="inventory_units_0_tags_high_margin">
+              <input type="checkbox" name="inventory_units[0][tags][]" value="high_margin" id="inventory_units_0_tags_high_margin" aria-label="High Margin">
+              <span>High Margin (>30%)</span>
+            </label>
+            <label style="display: flex; align-items: center; gap: 8px;" for="inventory_units_0_tags_low_margin">
+              <input type="checkbox" name="inventory_units[0][tags][]" value="low_margin" id="inventory_units_0_tags_low_margin" aria-label="Low Margin">
+              <span>Low Margin (<30%)</span>
+            </label>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <button type="button" id="add-another-unit">Add Another Unit</button>
+  </div>
+
+  <div>
+    <%= form.submit "Create Batch" %>
+  </div>
+<% end %>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const addButton = document.getElementById('add-another-unit');
+    let unitCount = 1;
+
+    if (!addButton) {
+      console.error('Add button not found!');
+      return;
+    }
+
+    addButton.addEventListener('click', function(e) {
+      e.preventDefault();
+      
+      unitCount++;
+      const originalUnit = document.querySelector('.inventory-unit-fields');
+      const newUnit = originalUnit.cloneNode(true);
+      
+      // Update the index in the new unit
+      newUnit.setAttribute('data-index', unitCount - 1);
+      newUnit.querySelector('h3').textContent = `Inventory Unit ${unitCount}`;
+      
+      // Update all input names and IDs
+      const inputs = newUnit.querySelectorAll('input');
+      inputs.forEach(input => {
+        const name = input.getAttribute('name');
+        const id = input.getAttribute('id');
+        if (name) input.setAttribute('name', name.replace('[0]', `[${unitCount - 1}]`));
+        if (id) input.setAttribute('id', id.replace('_0_', `_${unitCount - 1}_`));
+      });
+      
+      // Update all labels
+      const labels = newUnit.querySelectorAll('label');
+      labels.forEach(label => {
+        const forAttr = label.getAttribute('for');
+        if (forAttr) label.setAttribute('for', forAttr.replace('[0]', `[${unitCount - 1}]`));
+      });
+      
+      // Create a new container for this unit
+      const newContainer = document.createElement('div');
+      newContainer.id = `inventory-units-container-${unitCount - 1}`;
+      newContainer.appendChild(newUnit);
+      
+      // Insert the new container after the last container
+      const lastContainer = document.querySelector(`#inventory-units-container-${unitCount - 2}`) || 
+                           document.getElementById('inventory-units-container');
+      lastContainer.parentNode.insertBefore(newContainer, lastContainer.nextSibling);
+    });
+  });
+</script>

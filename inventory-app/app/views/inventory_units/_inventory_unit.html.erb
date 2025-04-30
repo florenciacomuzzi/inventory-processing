@@ -1,0 +1,107 @@
+<div id="<%= dom_id inventory_unit %>" class="inventory-unit-card" style="
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 15px 0;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+">
+  <div class="inventory-unit-header" style="
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+  ">
+    <h3 style="margin: 0; color: #333;"><%= inventory_unit.name %></h3>
+    <span class="upc-badge" style="
+      background-color: #f0f0f0;
+      padding: 5px 10px;
+      border-radius: 4px;
+      font-family: monospace;
+    ">UPC: <%= inventory_unit.upc %></span>
+  </div>
+
+  <div class="inventory-unit-details" style="
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+  ">
+    <div class="detail-group">
+      <strong style="color: #666;">Price:</strong>
+      <span style="color: #2e7d32; font-weight: bold;">$<%= number_with_precision(inventory_unit.price, precision: 2) %></span>
+    </div>
+
+    <div class="detail-group">
+      <strong style="color: #666;">Quantity:</strong>
+      <span style="
+        color: <%= inventory_unit.quantity > 0 ? '#2e7d32' : '#d32f2f' %>;
+        font-weight: bold;
+      "><%= inventory_unit.quantity %></span>
+    </div>
+
+    <div class="detail-group">
+      <strong style="color: #666;">Department:</strong>
+      <span><%= inventory_unit.department_id %></span>
+    </div>
+
+    <div class="detail-group">
+      <strong style="color: #666;">Internal ID:</strong>
+      <span><%= inventory_unit.internal_id %></span>
+    </div>
+  </div>
+
+  <% if inventory_unit.properties.present? %>
+    <div class="properties-section" style="
+      margin-top: 15px;
+      padding: 10px;
+      background-color: #f8f9fa;
+      border-radius: 4px;
+    ">
+      <strong style="color: #666;">Properties:</strong>
+      <div style="margin-top: 5px;">
+        <% inventory_unit.properties.each do |key, value| %>
+          <% if value.present? %>
+            <div style="margin: 5px 0;">
+              <span style="color: #666;"><%= key.titleize %>:</span>
+              <span><%= value %></span>
+            </div>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
+
+  <% if inventory_unit.tags.present? %>
+    <div class="tags-section" style="margin-top: 15px;">
+      <strong style="color: #666;">Tags:</strong>
+      <div style="display: flex; flex-wrap: wrap; gap: 5px; margin-top: 5px;">
+        <% inventory_unit.tags.each do |tag| %>
+          <span class="tag" style="
+            background-color: #e3f2fd;
+            color: #1976d2;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.85em;
+          "><%= tag.titleize %></span>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
+
+  <div class="batch-info" style="
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px solid #e0e0e0;
+    font-size: 0.9em;
+    color: #666;
+  ">
+    <div>Batch ID: <%= inventory_unit.batch_id %></div>
+    <% if inventory_unit.batch_stats.present? %>
+      <div>Batch Size: <%= inventory_unit.batch_stats.number_of_units %> units</div>
+      <div>Average Price: $<%= number_with_precision(inventory_unit.batch_stats.average_price, precision: 2) %></div>
+      <div>Total Quantity: <%= inventory_unit.batch_stats.total_quantity %></div>
+    <% end %>
+  </div>
+</div>

@@ -1,191 +1,191 @@
-upc,price,quantity,department_id,internal_id,name,properties
-012000071744,2.13,.00000000,Soda,,OrangeDole,"{'department': 'Soda', 'vendor': 'NONE', 'description': 'NULL'}"
-012086312014,16.04,11.00000000,WINE,,Macon VillagesJoseph Drouhin,"{'department': 'WINE', 'vendor': 'NONE', 'description': 'NULL'}"
-018200200595,19.61,.00000000,BEER,,Ultra 16ozMiclob Ultra,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-018200202087,17.43,.00000000,BEER,,BL Seltzer 12pkBud Light,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-018200202100,16.99,.00000000,BEER,,Bud Light VariteyBud Light,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-018200202179,17.11,.00000000,BEER,,strawberry seltBud Light,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-018200240010,11.98,.00000000,BEER,,stella ciderNULL,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-018200260636,3.21,-9.00000000,BEER,,Bud Light Seltzer 25ozBud Light,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-018200260636,3.21,-9.00000000,BEER,,Bud Light Seltzer 25ozBud Light,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-031259004327,16.04,102.00000000,WINE,,Josh Bour BarrelCab Sav,"{'department': 'WINE', 'vendor': 'NONE', 'description': 'NULL'}"
-033544000434,18.18,.00000000,BEER,,Corona seltzer12oz 12pk,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-040232502132,17.11,2.00000000,BEER,,Mighty Squirel Mango Lassi4 x 16oz,"{'department': 'BEER', 'vendor': 'Atlantic', 'description': 'NULL'}"
-049000081374,2.68,.00000000,Soda,,EnergyCoke,"{'department': 'Soda', 'vendor': 'NONE', 'description': 'NULL'}"
-051497123413,14.97,.00000000,BEER,,Dear MackMighty Squirrel,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-051497123420,14.97,8.00000000,BEER,,Mighty Squirrel Dear Bubba4 x 16oz,"{'department': 'BEER', 'vendor': 'Atlantic', 'description': 'NULL'}"
-070137000181,7.48,.00000000,TOBACCO,,Black & MildBlack Mild,"{'department': 'TOBACCO', 'vendor': 'NONE', 'description': 'NULL'}"
-071537020045,2.03,.00000000,Soda,,Club SodaPolar,"{'department': 'Soda', 'vendor': 'NONE', 'description': 'NULL'}"
-071990095277,20.7,.00000000,BEER,,Coors 15pk PintCoors Light,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-071990095925,17.11,.00000000,BEER,,Light Sky 12pkBlueMoon,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-071990300692,14.81,5.00000000,BEER,,Coors Light12 x 12oz Glass,"{'department': 'BEER', 'vendor': '9787772213', 'description': 'NULL'}"
-07199840,8.55,.00000000,BEER,,Coors Light6 x 12oz Can,"{'department': 'BEER', 'vendor': '', 'description': 'NULL'}"
-072890001528,25.06,.00000000,BEER,,Heineken 18pkHeineken,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-076452351236,12.83,.00000000,TOBACCO,,CHURCHILROMEO Y JULIETA,"{'department': 'TOBACCO', 'vendor': 'NONE', 'description': 'NULL'}"
-076622775305,4.01,13.00000000,TOBACCO,,QuorumQuorum,"{'department': 'TOBACCO', 'vendor': 'NONE', 'description': 'NULL'}"
-080480005221,42.79,5.00000000,LIQUOR,,Dewars 15yrScotch,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-080480230074,1.87,230.00000000,LIQUOR,,Dewars 50mlScotch,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-080480231033,17.11,12.00000000,LIQUOR,,Dewars 12 Yrs 375mlScotch,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-080660954080,25.07,-8.00000000,BEER,,24pk Corona 7ozCorona,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-080660956831,4.28,.00000000,BEER,,Familiar 40ozCorona,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-080660957852,11.76,.00000000,BEER,,Negra 6pkModelo,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-080667223493,13.9,12.00000000,WINE,,Pinot NoirPoppy Hill,"{'department': 'WINE', 'vendor': 'NONE', 'description': 'NULL'}"
-081308003566,14.97,11.00000000,WINE,,Pinot NoirChloe,"{'department': 'WINE', 'vendor': 'NONE', 'description': 'NULL'}"
-081308003733,14.97,37.00000000,WINE,,ProseccoChloe,"{'department': 'WINE', 'vendor': 'NONE', 'description': 'NULL'}"
-081308004532,13.9,12.00000000,WINE,,Cab SauvChloe,"{'department': 'WINE', 'vendor': 'NONE', 'description': 'NULL'}"
-082000003960,15.25,8.00000000,LIQUOR,,RaspberrySmirnoff,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-082000790815,14.97,12.00000000,LIQUOR,,Straw&RoseSmirnoff,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-082000792567,10.89,.00000000,BEER,,RWB 6pkSmirnoff,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-082184002094,53.49,1.00000000,LIQUOR,,Single barrel RyeJack Dan,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-082184090442,32.09,5.00000000,LIQUOR,,Jack dan 1ltJack Daniels,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-082242015691,19.61,.00000000,WINE,,Butter ChardNight Hawk,"{'department': 'WINE', 'vendor': 'NONE', 'description': 'NULL'}"
-083783110098,11.76,.00000000,BEER,,Hazy 6pkSierra nevada,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-083783222005,19.25,.00000000,BEER,,Pale Ale 12pkSierra Nevada,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-083783228564,16.04,.00000000,BEER,,Fantastic Haze IPASierra Nevada,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-083820104035,18.18,.00000000,BEER,,Draught 12pk BltGuissess,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-083820234800,3.21,.00000000,BEER,,Xtra Stout 22ozGuinnes,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-083820234824,18.18,.00000000,BEER,,Guinness 12pkExtra Stout,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-085000019658,10.69,.00000000,WINE,,Pink Moscato ChampBarefoot,"{'department': 'WINE', 'vendor': 'NONE', 'description': 'NULL'}"
-085000026274,10.69,1.00000000,BEER,,GrapefruitHigh Noon,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-085000029251,10.69,.00000000,BEER,,WatermelonHigh Noon,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-085000029268,10.69,2.00000000,BEER,,PineappleHigh Noon,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-085000029275,10.69,2.00000000,BEER,,Black CherryHigh Noon,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-085000029862,30.51,.00000000,BEER,,H noon 12pkHigh Noon,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-085000031513,21.39,.00000000,LIQUOR,,Hard SeltzerHigh Noon,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-085000248799,11.76,-2.00000000,WINE,,Brut 4pkBarefoot,"{'department': 'WINE', 'vendor': 'NONE', 'description': 'NULL'}"
-0852411007969,16.04,29.00000000,WINE,,Pinot NoirLife Vine,"{'department': 'WINE', 'vendor': 'NONE', 'description': 'NULL'}"
-086003820746,10.69,3.00000000,WINE,,Chard Rum BarrelWoodbridge,"{'department': 'WINE', 'vendor': 'NONE', 'description': 'NULL'}"
-086003820753,10.69,1.00000000,WINE,,RM Bourbon CabRM,"{'department': 'WINE', 'vendor': 'NONE', 'description': 'NULL'}"
-087236001216,28.33,2.00000000,LIQUOR,,Remy 375mlRemy Martin,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-087236565206,23.53,1.00000000,LIQUOR,,Cointreau 375mlCointreau,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-087692000839,18.52,.00000000,BEER,,Angry Orchard12pkCider,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-087692004202,9.99,.00000000,BEER,,Truly Grapefruit6 x 12oz,"{'department': 'BEER', 'vendor': 'NULL', 'description': 'NULL'}"
-087692007883,18.08,.00000000,BEER,,Sam NE IPA12pkSam Adams,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-087692009658,9.99,-1.00000000,BEER,,Truly Pineapple6 x 12oz,"{'department': 'BEER', 'vendor': 'NULL', 'description': 'NULL'}"
-087692009894,9.99,-1.00000000,BEER,,Truly Watermelon & Kiwi6 x 12oz,"{'department': 'BEER', 'vendor': 'NULL', 'description': 'NULL'}"
-08787638,10.69,.00000000,BEER,,Light Sky 6pkBlue Moon,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-088004028244,5.34,29.00000000,LIQUOR,,Sea Ice 375mlVodka,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-088076183728,32.09,9.00000000,LIQUOR,,Summer watermelonCiroc,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-088110931032,40.32,.00000000,LIQUOR,,Grand MarnierLiqueur,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-088320002089,17.11,53.00000000,WINE,,The PalmWhispering,"{'department': 'WINE', 'vendor': 'NONE', 'description': 'NULL'}"
-088415780557,21.39,7.00000000,WINE,,Simi Cab SavSimi,"{'department': 'WINE', 'vendor': 'NONE', 'description': 'NULL'}"
-089475501199,17.11,11.00000000,WINE,,Cantina ZaccagniniPinot Grigio,"{'department': 'WINE', 'vendor': 'NONE', 'description': 'NULL'}"
-089924770145,9.62,.00000000,BEER,,Flightyuengling,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-096749021147,24.6,-6.00000000,LIQUOR,,Evan william 1.75Bourbon,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-099988071751,10.69,8.00000000,WINE,,Menage 3pkMenage a Trois,"{'department': 'WINE', 'vendor': 'NONE', 'description': 'NULL'}"
-100000,0.0,5.00000000,BEER,,NSB Santilli(6) 4 x 16oz C,"{'department': 'BEER', 'vendor': '6172944233', 'description': 'NULL'}"
-100013,0.0,5.00000000,BEER,,NSB One Hop This Time(6) 4 x 16ox,"{'department': 'BEER', 'vendor': '6172944233', 'description': 'NULL'}"
-100015,0.0,4.00000000,BEER,,NSB The 87(6) 4 x 16oz C,"{'department': 'BEER', 'vendor': '6172944233', 'description': 'NULL'}"
-100017,0.0,5.00000000,BEER,,NSB Whirlpool(6) 4 x 16ox C,"{'department': 'BEER', 'vendor': '6172944233', 'description': 'NULL'}"
-100189,0.0,2.00000000,BEER,,Pipeworks Ninja v Unicorn DIPA(6) 4 x 16oz C,"{'department': 'BEER', 'vendor': '6172944233', 'description': 'NULL'}"
-1198,0.0,1.00000000,BEER,biz_id_1198,Pipeworks Pineapple Guppy Case(6) 4 x 16oz,"{'department': 'BEER', 'vendor': '6172944233', 'description': 'NULL'}"
-1666,0.0,10.00000000,BEER,biz_id_1666,NSB Santilli 12PKS(2) 12 x 12oz C,"{'department': 'BEER', 'vendor': '6172944233', 'description': 'NULL'}"
-1836,0.0,6.00000000,BEER,biz_id_1836,Mast Landing S&L(6) 4 x 16oz C,"{'department': 'BEER', 'vendor': '6172944233', 'description': 'NULL'}"
-1864,0.0,3.00000000,BEER,biz_id_1864,NSB Fluffinity(6) 4 x 16oz,"{'department': 'BEER', 'vendor': '6172944233', 'description': 'NULL'}"
-258,0.0,1.00000000,BEER,biz_id_258,Destihl Synchopathic(4) 6 x 12oz,"{'department': 'BEER', 'vendor': '6172944233', 'description': 'NULL'}"
-340,0.0,6.00000000,BEER,biz_id_340,Mast Landing Gunner's Daughter(6) 4 x 16oz,"{'department': 'BEER', 'vendor': '6172944233', 'description': 'NULL'}"
-50001147002,17.11,.00000000,BEER,,Amber AleLawson,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-524,0.0,6.00000000,BEER,biz_id_524,Mast Landing DDH Tell Tale(6) 4 x 16oz C,"{'department': 'BEER', 'vendor': '6172944233', 'description': 'NULL'}"
-602938319133,19.25,.00000000,BEER,,Hair RaiserExhibit A,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-602938319140,16.25,.00000000,BEER,,Meow NE IPAExhibit A,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-603675104822,12.83,6.00000000,BEER,,Allagash TripelAllagash,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-611269108026,8.76,.00000000,Soda,,Red Bull 4pkAll 4pk,"{'department': 'Soda', 'vendor': 'NONE', 'description': 'NULL'}"
-613103066394,16.04,6.00000000,BEER,,Hoedown KolschFunky Bow,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-616003112161,6.41,.00000000,Soda,,Sweet & SourZing Zang,"{'department': 'Soda', 'vendor': 'NONE', 'description': 'NULL'}"
-616003945219,6.41,34.00000000,Soda,,Margarita MixZing Zang,"{'department': 'Soda', 'vendor': 'NONE', 'description': 'NULL'}"
-635985260868,10.69,.00000000,BEER,,Mango 6pkWhite Claw,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-635985800064,18.08,98.00000000,BEER,,Variety No2White Claw,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-636251740947,19.59,.00000000,BEER,,Stone IPA West Coast12 x 12oz C,"{'department': 'BEER', 'vendor': 'NULL', 'description': 'NULL'}"
-636251742040,19.59,-1.00000000,BEER,,Stone Delicious IPA12 x 12oz C,"{'department': 'BEER', 'vendor': 'NULL', 'description': 'NULL'}"
-636251743542,12.83,.00000000,BEER,,Delicious IPAStone,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-637704071137,14.97,.00000000,BEER,,Nugget NectarTroges,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-637704901007,16.04,.00000000,BEER,,LollihopTroges,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-640901189246,13.9,12.00000000,BEER,,Pipeworks Ninja vs Unicorn4 x 16oz,"{'department': 'BEER', 'vendor': '6172944233', 'description': 'NULL'}"
-641076983004,10.69,5.00000000,BEER,,Pipeworks Pineapple Guppy4 x 16oz,"{'department': 'BEER', 'vendor': '6172944233', 'description': 'NULL'}"
-644216252503,18.18,.00000000,BEER,,Female LeadNight Shift,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-644216259502,10.69,.00000000,BEER,,santili 6pkNight Shift,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-644216259601,19.89,19.00000000,BEER,,NSB Santilli12 x 12oz,"{'department': 'BEER', 'vendor': '6172944233', 'description': 'NULL'}"
-644216260904,16.25,-1.00000000,BEER,,NSB Fluffinity4 x 16oz,"{'department': 'BEER', 'vendor': '6172944233', 'description': 'NULL'}"
-644216262304,17.11,.00000000,BEER,,Owl vs unicornNight shift,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-644216264803,16.04,.00000000,BEER,,How r YaNight Shift,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-644824478753,7.48,.00000000,TOBACCO,,Cigar 21Fronto,"{'department': 'TOBACCO', 'vendor': 'NONE', 'description': 'NULL'}"
-654728952761,15.29,.00000000,LIQUOR,,Italian margaritafabrizia,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-660989379841,7.04,.00000000,TOBACCO,,KING SingleFronto,"{'department': 'TOBACCO', 'vendor': 'NONE', 'description': 'NULL'}"
-662425083930,19.25,.00000000,BEER,,House Lager 15pkJacks Abby,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-662425097302,19.25,.00000000,BEER,,Blood Orange 15pkJacks Abby,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-662425097814,13.9,-12.00000000,BEER,,Springdale IPASpringdale,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-662425097821,12.08,.00000000,BEER,,Shipping Out BostonJack's Abby,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-662425097890,11.97,2.00000000,BEER,,Galaxy BrauJacks Abby,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-669576019245,21.39,.00000000,WINE,,Decoy ChardChard 750ml,"{'department': 'WINE', 'vendor': 'NONE', 'description': 'NULL'}"
-670,0.0,3.00000000,BEER,biz_id_670,NSB Craigerator(6) 4 x 16oz C,"{'department': 'BEER', 'vendor': '6172944233', 'description': 'NULL'}"
-680203019353,53.49,4.00000000,LIQUOR,,Willett BourbonWillett,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-686557533224,6.41,13.00000000,Soda,,Hand sanitizerFabrizia,"{'department': 'Soda', 'vendor': 'NONE', 'description': 'NULL'}"
-6976915164486,10.69,1.00000000,WINE,,Basso ChiantiPoggio Basso,"{'department': 'WINE', 'vendor': 'NONE', 'description': 'NULL'}"
-720815280137,53.49,5.00000000,LIQUOR,,Single GrainIrish Whiskey,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-720815280236,58.84,1.00000000,LIQUOR,,Single MaltTeeling,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-721059001298,42.79,5.00000000,LIQUOR,,Espolon AnejoNULL,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-723830130067,11.76,.00000000,BEER,,Hazy wonderlagunitas,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-723830981645,11.76,.00000000,BEER,,Hazy MemoryLagunitas,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-735810690997,16.04,.00000000,BEER,,HopulenceWormtown,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-736040537113,32.09,11.00000000,LIQUOR,,Banhez MezcalMezcal,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-743041090073,18.18,.00000000,BEER,,Summer 12pkWachusett,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-743041090127,18.52,.00000000,BEER,,IPA Mix PackWachusett,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-743041090233,18.52,.00000000,BEER,,Wachu Summer MixWachusett,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-743041090356,20.7,.00000000,BEER,,Wally Variety pkWachusett,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-744607111317,39.58,6.00000000,LIQUOR,,Silverherradura,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-752830259713,19.25,4.00000000,BEER,,NSB Briar Weisse4 x 16oz,"{'department': 'BEER', 'vendor': '6172944233', 'description': 'NULL'}"
-754527000523,12.83,.00000000,BEER,,Trippelnew Belgium,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-793866530025,13.07,.00000000,BEER,,NitroLeft Hand,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-8033540100314,16.04,10.00000000,WINE,,castello di RaddaChianti Classico,"{'department': 'WINE', 'vendor': 'NONE', 'description': 'NULL'}"
-810879020135,16.04,19.00000000,WINE,,Iron Side CabCab,"{'department': 'WINE', 'vendor': 'NONE', 'description': 'NULL'}"
-810879021385,1.07,116.00000000,LIQUOR,,Steel Dust 50mlVodka,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-811538010115,4.27,10.00000000,LIQUOR,,1800 Silver 50ml1800 Silver,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-811538010122,18.18,2.00000000,LIQUOR,,silver 375ml1800 Silver,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-811538010993,19.25,5.00000000,LIQUOR,,Classic Marg 1.75mlJose Cuervo,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-811538019156,23.53,4.00000000,LIQUOR,,1800 Margarita1800,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-812459012004,51.35,6.00000000,LIQUOR,,CalumetBourbon,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-813219020048,37.44,2.00000000,LIQUOR,,Teeling 750mlIrish Whiskey,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-817904007949,12.83,.00000000,BEER,,Hazy IPAElysian,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-819578010478,12.83,.00000000,BEER,,Road 2 RunTwo Roads,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-819913012594,21.39,4.00000000,Soda,,v oj l,"{'department': 'Soda', 'vendor': 'NONE', 'description': 'NULL'}"
-835229002302,21.79,3.00000000,LIQUOR,,mandrinAbsolut,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-848557000001,8.55,.00000000,BEER,,Crabbies 4pkCrabbies,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-850001147002,17.11,.00000000,BEER,,Mapple nippleLawson,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-850001901116,56.7,5.00000000,LIQUOR,,Piggy Back 6yrWhistlepig,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-850006430000,4.27,.00000000,BEER,,Taj 650mlTaj,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-850113006235,15.18,1.00000000,BEER,,Zero Gravity Madonna4 x 16oz,"{'department': 'BEER', 'vendor': 'Atlantic', 'description': 'NULL'}"
-852313004837,18.18,.00000000,BEER,,Press 12pk VarPress,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-852411007563,16.04,9.00000000,WINE,,Lifevine Cab SauvLifevine,"{'department': 'WINE', 'vendor': 'NONE', 'description': 'NULL'}"
-852411007570,16.04,1.00000000,WINE,,ChardLife Vine,"{'department': 'WINE', 'vendor': 'NONE', 'description': 'NULL'}"
-853239007018,16.04,5.00000000,BEER,,Mast Landing DDH Tell Tale4 x 16oz,"{'department': 'BEER', 'vendor': '6172944233', 'description': 'NULL'}"
-853239007049,16.04,.00000000,BEER,,Dash 4pkMast Landing,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-853239007780,18.18,5.00000000,BEER,,Mast Landing Sports & Leisure4 x 16oz,"{'department': 'BEER', 'vendor': '6172944233', 'description': 'NULL'}"
-854924003773,12.83,.00000000,BEER,,Riverwalk IPAIPA 4pk,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-855067006270,12.83,4.00000000,BEER,,Stormalong Red Skies4 x 16oz,"{'department': 'BEER', 'vendor': 'Atlantic', 'description': 'NULL'}"
-855067006331,11.76,.00000000,BEER,,Blue HillsStormalong,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-855775006647,16.04,.00000000,BEER,,CzarfaceBent Water,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-855775006715,16.04,.00000000,NONE,,FelixBent Water,"{'department': 'NONE', 'vendor': 'NONE', 'description': 'NULL'}"
-856011004151,3.21,-68.00000000,LIQUOR,,Ole Smoky 50mlMoonshine,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-856011004151,3.21,-68.00000000,LIQUOR,,Ole Smoky 50mlMoonshine,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-856592006032,23.53,18.00000000,LIQUOR,,Wolf Spirit VodkaBlood Sweat Tears,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-856724006015,56.7,5.00000000,LIQUOR,,AnejoCasamigos,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-856724006213,53.49,6.00000000,LIQUOR,,ReposadoCasamigos,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-856724006329,58.84,6.00000000,LIQUOR,,Casamigos MezcalCasamigos,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-857660004622,13.9,13.00000000,WINE,,Luna Di Luna 1.5mlPinot Grigio,"{'department': 'WINE', 'vendor': 'NONE', 'description': 'NULL'}"
-858749003093,11.76,9.00000000,WINE,,Poggio ChiantiArgentale,"{'department': 'WINE', 'vendor': 'NONE', 'description': 'NULL'}"
-859199003220,13.9,.00000000,BEER,,BRoseCitizen Cider,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-859660007061,14.97,6.00000000,BEER,,1 North haze Ipa1 North,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-859708002171,13.9,3.00000000,BEER,,Destihl Synchopathic6 x 12oz,"{'department': 'BEER', 'vendor': '6172944233', 'description': 'NULL'}"
-859708002553,16.04,.00000000,BEER,,Extended IPADestihl,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-860001867213,14.22,.00000000,BEER,,Hibiscus PomLover Boy,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-860001867237,14.22,.00000000,BEER,,Lemon Ice TeaLover Boy,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-860001867251,14.22,.00000000,BEER,,white tea peachLover boy,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-860265002429,3.2,106.00000000,LIQUOR,,Skrewball 50mlPeanut Butter whiskey,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-867636000015,17.11,7.00000000,LIQUOR,,Fisher Islandlemonade,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-891278002298,10.69,.00000000,LIQUOR,,Citrus RushMonaco,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-891278002458,10.69,.00000000,LIQUOR,,Blue rushMonaco,"{'department': 'LIQUOR', 'vendor': 'NONE', 'description': 'NULL'}"
-892480001116,10.69,1.00000000,BEER,,Amber 4pkCape Ann,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-892480100017,10.69,1.00000000,BEER,,Easy IPACape Ann Brew,"{'department': 'BEER', 'vendor': 'NONE', 'description': 'NULL'}"
-898195001014,7.48,4.00000000,Soda,,4pk Tonic WaterFever Tree,"{'department': 'Soda', 'vendor': 'NONE', 'description': 'NULL'}"
-898195001656,8.01,4.00000000,Soda,,Elder Flower Tonic WaterFever Tree,"{'department': 'Soda', 'vendor': 'NONE', 'description': 'NULL'}"
-929,0.0,1.00000000,BEER,biz_id_929,NSB Briar Weisse(6) 4 x 16oz,"{'department': 'BEER', 'vendor': '6172944233', 'description': 'NULL'}"
+upc,price,quantity,department_id,internal_id,name,properties,tags
+012000071744,2.13,0,Soda,,OrangeDole,"{'department': 'Soda', 'vendor': None, 'description': None}",['high_margin']
+012086312014,16.04,11,WINE,,Macon VillagesJoseph Drouhin,"{'department': 'WINE', 'vendor': None, 'description': None}",['high_margin']
+018200200595,19.61,0,BEER,,Ultra 16ozMiclob Ultra,"{'department': 'BEER', 'vendor': None, 'description': None}",['low_margin']
+018200202087,17.43,0,BEER,,BL Seltzer 12pkBud Light,"{'department': 'BEER', 'vendor': None, 'description': None}",['low_margin']
+018200202100,16.99,0,BEER,,Bud Light VariteyBud Light,"{'department': 'BEER', 'vendor': None, 'description': None}",['low_margin']
+018200202179,17.11,0,BEER,,strawberry seltBud Light,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+018200240010,11.98,0,BEER,,stella ciderNULL,"{'department': 'BEER', 'vendor': None, 'description': None}",['low_margin']
+018200260636,3.21,0,BEER,,Bud Light Seltzer 25ozBud Light,"{'department': 'BEER', 'vendor': None, 'description': None}","['duplicate_sku', 'high_margin']"
+018200260636,3.21,0,BEER,,Bud Light Seltzer 25ozBud Light,"{'department': 'BEER', 'vendor': None, 'description': None}","['duplicate_sku', 'high_margin']"
+031259004327,16.04,102,WINE,,Josh Bour BarrelCab Sav,"{'department': 'WINE', 'vendor': None, 'description': None}",['high_margin']
+033544000434,18.18,0,BEER,,Corona seltzer12oz 12pk,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+040232502132,17.11,2,BEER,,Mighty Squirel Mango Lassi4 x 16oz,"{'department': 'BEER', 'vendor': 'Atlantic', 'description': None}",['high_margin']
+049000081374,2.68,0,Soda,,EnergyCoke,"{'department': 'Soda', 'vendor': None, 'description': None}",['high_margin']
+051497123413,14.97,0,BEER,,Dear MackMighty Squirrel,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+051497123420,14.97,8,BEER,,Mighty Squirrel Dear Bubba4 x 16oz,"{'department': 'BEER', 'vendor': 'Atlantic', 'description': None}",['high_margin']
+070137000181,7.48,0,TOBACCO,,Black & MildBlack Mild,"{'department': 'TOBACCO', 'vendor': None, 'description': None}",['high_margin']
+071537020045,2.03,0,Soda,,Club SodaPolar,"{'department': 'Soda', 'vendor': None, 'description': None}",['high_margin']
+071990095277,20.7,0,BEER,,Coors 15pk PintCoors Light,"{'department': 'BEER', 'vendor': None, 'description': None}",['low_margin']
+071990095925,17.11,0,BEER,,Light Sky 12pkBlueMoon,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+071990300692,14.81,5,BEER,,Coors Light12 x 12oz Glass,"{'department': 'BEER', 'vendor': '9787772213', 'description': None}",['low_margin']
+07199840,8.55,0,BEER,,Coors Light6 x 12oz Can,"{'department': 'BEER', 'vendor': '', 'description': None}",['high_margin']
+072890001528,25.06,0,BEER,,Heineken 18pkHeineken,"{'department': 'BEER', 'vendor': None, 'description': None}",['low_margin']
+076452351236,12.83,0,TOBACCO,,CHURCHILROMEO Y JULIETA,"{'department': 'TOBACCO', 'vendor': None, 'description': None}",['high_margin']
+076622775305,4.01,13,TOBACCO,,QuorumQuorum,"{'department': 'TOBACCO', 'vendor': None, 'description': None}",['high_margin']
+080480005221,42.79,5,LIQUOR,,Dewars 15yrScotch,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+080480230074,1.87,230,LIQUOR,,Dewars 50mlScotch,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+080480231033,17.11,12,LIQUOR,,Dewars 12 Yrs 375mlScotch,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+080660954080,25.07,0,BEER,,24pk Corona 7ozCorona,"{'department': 'BEER', 'vendor': None, 'description': None}",['low_margin']
+080660956831,4.28,0,BEER,,Familiar 40ozCorona,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+080660957852,11.76,0,BEER,,Negra 6pkModelo,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+080667223493,13.9,12,WINE,,Pinot NoirPoppy Hill,"{'department': 'WINE', 'vendor': None, 'description': None}",['high_margin']
+081308003566,14.97,11,WINE,,Pinot NoirChloe,"{'department': 'WINE', 'vendor': None, 'description': None}",['high_margin']
+081308003733,14.97,37,WINE,,ProseccoChloe,"{'department': 'WINE', 'vendor': None, 'description': None}",['high_margin']
+081308004532,13.9,12,WINE,,Cab SauvChloe,"{'department': 'WINE', 'vendor': None, 'description': None}",['high_margin']
+082000003960,15.25,8,LIQUOR,,RaspberrySmirnoff,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['low_margin']
+082000790815,14.97,12,LIQUOR,,Straw&RoseSmirnoff,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+082000792567,10.89,0,BEER,,RWB 6pkSmirnoff,"{'department': 'BEER', 'vendor': None, 'description': None}",['low_margin']
+082184002094,53.49,1,LIQUOR,,Single barrel RyeJack Dan,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+082184090442,32.09,5,LIQUOR,,Jack dan 1ltJack Daniels,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+082242015691,19.61,0,WINE,,Butter ChardNight Hawk,"{'department': 'WINE', 'vendor': None, 'description': None}",['low_margin']
+083783110098,11.76,0,BEER,,Hazy 6pkSierra nevada,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+083783222005,19.25,0,BEER,,Pale Ale 12pkSierra Nevada,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+083783228564,16.04,0,BEER,,Fantastic Haze IPASierra Nevada,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+083820104035,18.18,0,BEER,,Draught 12pk BltGuissess,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+083820234800,3.21,0,BEER,,Xtra Stout 22ozGuinnes,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+083820234824,18.18,0,BEER,,Guinness 12pkExtra Stout,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+085000019658,10.69,0,WINE,,Pink Moscato ChampBarefoot,"{'department': 'WINE', 'vendor': None, 'description': None}",['high_margin']
+085000026274,10.69,1,BEER,,GrapefruitHigh Noon,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+085000029251,10.69,0,BEER,,WatermelonHigh Noon,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+085000029268,10.69,2,BEER,,PineappleHigh Noon,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+085000029275,10.69,2,BEER,,Black CherryHigh Noon,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+085000029862,30.51,0,BEER,,H noon 12pkHigh Noon,"{'department': 'BEER', 'vendor': None, 'description': None}",['low_margin']
+085000031513,21.39,0,LIQUOR,,Hard SeltzerHigh Noon,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+085000248799,11.76,0,WINE,,Brut 4pkBarefoot,"{'department': 'WINE', 'vendor': None, 'description': None}",['high_margin']
+0852411007969,16.04,29,WINE,,Pinot NoirLife Vine,"{'department': 'WINE', 'vendor': None, 'description': None}",['high_margin']
+086003820746,10.69,3,WINE,,Chard Rum BarrelWoodbridge,"{'department': 'WINE', 'vendor': None, 'description': None}",['high_margin']
+086003820753,10.69,1,WINE,,RM Bourbon CabRM,"{'department': 'WINE', 'vendor': None, 'description': None}",['high_margin']
+087236001216,28.33,2,LIQUOR,,Remy 375mlRemy Martin,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['low_margin']
+087236565206,23.53,1,LIQUOR,,Cointreau 375mlCointreau,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+087692000839,18.52,0,BEER,,Angry Orchard12pkCider,"{'department': 'BEER', 'vendor': None, 'description': None}",['low_margin']
+087692004202,9.99,0,BEER,,Truly Grapefruit6 x 12oz,"{'department': 'BEER', 'vendor': 'NULL', 'description': None}",[]
+087692007883,18.08,0,BEER,,Sam NE IPA12pkSam Adams,"{'department': 'BEER', 'vendor': None, 'description': None}",['low_margin']
+087692009658,9.99,0,BEER,,Truly Pineapple6 x 12oz,"{'department': 'BEER', 'vendor': 'NULL', 'description': None}",[]
+087692009894,9.99,0,BEER,,Truly Watermelon & Kiwi6 x 12oz,"{'department': 'BEER', 'vendor': 'NULL', 'description': None}",[]
+08787638,10.69,0,BEER,,Light Sky 6pkBlue Moon,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+088004028244,5.34,29,LIQUOR,,Sea Ice 375mlVodka,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+088076183728,32.09,9,LIQUOR,,Summer watermelonCiroc,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+088110931032,40.32,0,LIQUOR,,Grand MarnierLiqueur,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['low_margin']
+088320002089,17.11,53,WINE,,The PalmWhispering,"{'department': 'WINE', 'vendor': None, 'description': None}",['high_margin']
+088415780557,21.39,7,WINE,,Simi Cab SavSimi,"{'department': 'WINE', 'vendor': None, 'description': None}",['high_margin']
+089475501199,17.11,11,WINE,,Cantina ZaccagniniPinot Grigio,"{'department': 'WINE', 'vendor': None, 'description': None}",['high_margin']
+089924770145,9.62,0,BEER,,Flightyuengling,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+096749021147,24.6,0,LIQUOR,,Evan william 1.75Bourbon,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+099988071751,10.69,8,WINE,,Menage 3pkMenage a Trois,"{'department': 'WINE', 'vendor': None, 'description': None}",['high_margin']
+100000,0.0,5,BEER,,NSB Santilli(6) 4 x 16oz C,"{'department': 'BEER', 'vendor': '6172944233', 'description': None}",['low_margin']
+100013,0.0,5,BEER,,NSB One Hop This Time(6) 4 x 16ox,"{'department': 'BEER', 'vendor': '6172944233', 'description': None}",['low_margin']
+100015,0.0,4,BEER,,NSB The 87(6) 4 x 16oz C,"{'department': 'BEER', 'vendor': '6172944233', 'description': None}",['low_margin']
+100017,0.0,5,BEER,,NSB Whirlpool(6) 4 x 16ox C,"{'department': 'BEER', 'vendor': '6172944233', 'description': None}",['low_margin']
+100189,0.0,2,BEER,,Pipeworks Ninja v Unicorn DIPA(6) 4 x 16oz C,"{'department': 'BEER', 'vendor': '6172944233', 'description': None}",['low_margin']
+1198,0.0,1,BEER,1198,Pipeworks Pineapple Guppy Case(6) 4 x 16oz,"{'department': 'BEER', 'vendor': '6172944233', 'description': None}",['low_margin']
+1666,0.0,10,BEER,1666,NSB Santilli 12PKS(2) 12 x 12oz C,"{'department': 'BEER', 'vendor': '6172944233', 'description': None}",['low_margin']
+1836,0.0,6,BEER,1836,Mast Landing S&L(6) 4 x 16oz C,"{'department': 'BEER', 'vendor': '6172944233', 'description': None}",['low_margin']
+1864,0.0,3,BEER,1864,NSB Fluffinity(6) 4 x 16oz,"{'department': 'BEER', 'vendor': '6172944233', 'description': None}",['low_margin']
+258,0.0,1,BEER,258,Destihl Synchopathic(4) 6 x 12oz,"{'department': 'BEER', 'vendor': '6172944233', 'description': None}",['low_margin']
+340,0.0,6,BEER,340,Mast Landing Gunner's Daughter(6) 4 x 16oz,"{'department': 'BEER', 'vendor': '6172944233', 'description': None}",['low_margin']
+50001147002,17.11,0,BEER,,Amber AleLawson,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+524,0.0,6,BEER,524,Mast Landing DDH Tell Tale(6) 4 x 16oz C,"{'department': 'BEER', 'vendor': '6172944233', 'description': None}",['low_margin']
+602938319133,19.25,0,BEER,,Hair RaiserExhibit A,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+602938319140,16.25,0,BEER,,Meow NE IPAExhibit A,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+603675104822,12.83,6,BEER,,Allagash TripelAllagash,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+611269108026,8.76,0,Soda,,Red Bull 4pkAll 4pk,"{'department': 'Soda', 'vendor': None, 'description': None}",['high_margin']
+613103066394,16.04,6,BEER,,Hoedown KolschFunky Bow,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+616003112161,6.41,0,Soda,,Sweet & SourZing Zang,"{'department': 'Soda', 'vendor': None, 'description': None}",['high_margin']
+616003945219,6.41,34,Soda,,Margarita MixZing Zang,"{'department': 'Soda', 'vendor': None, 'description': None}",['high_margin']
+635985260868,10.69,0,BEER,,Mango 6pkWhite Claw,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+635985800064,18.08,98,BEER,,Variety No2White Claw,"{'department': 'BEER', 'vendor': None, 'description': None}",['low_margin']
+636251740947,19.59,0,BEER,,Stone IPA West Coast12 x 12oz C,"{'department': 'BEER', 'vendor': 'NULL', 'description': None}",[]
+636251742040,19.59,0,BEER,,Stone Delicious IPA12 x 12oz C,"{'department': 'BEER', 'vendor': 'NULL', 'description': None}",[]
+636251743542,12.83,0,BEER,,Delicious IPAStone,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+637704071137,14.97,0,BEER,,Nugget NectarTroges,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+637704901007,16.04,0,BEER,,LollihopTroges,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+640901189246,13.9,12,BEER,,Pipeworks Ninja vs Unicorn4 x 16oz,"{'department': 'BEER', 'vendor': '6172944233', 'description': None}",['high_margin']
+641076983004,10.69,5,BEER,,Pipeworks Pineapple Guppy4 x 16oz,"{'department': 'BEER', 'vendor': '6172944233', 'description': None}",['high_margin']
+644216252503,18.18,0,BEER,,Female LeadNight Shift,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+644216259502,10.69,0,BEER,,santili 6pkNight Shift,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+644216259601,19.89,19,BEER,,NSB Santilli12 x 12oz,"{'department': 'BEER', 'vendor': '6172944233', 'description': None}",['high_margin']
+644216260904,16.25,0,BEER,,NSB Fluffinity4 x 16oz,"{'department': 'BEER', 'vendor': '6172944233', 'description': None}",['high_margin']
+644216262304,17.11,0,BEER,,Owl vs unicornNight shift,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+644216264803,16.04,0,BEER,,How r YaNight Shift,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+644824478753,7.48,0,TOBACCO,,Cigar 21Fronto,"{'department': 'TOBACCO', 'vendor': None, 'description': None}",['high_margin']
+654728952761,15.29,0,LIQUOR,,Italian margaritafabrizia,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+660989379841,7.04,0,TOBACCO,,KING SingleFronto,"{'department': 'TOBACCO', 'vendor': None, 'description': None}",['high_margin']
+662425083930,19.25,0,BEER,,House Lager 15pkJacks Abby,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+662425097302,19.25,0,BEER,,Blood Orange 15pkJacks Abby,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+662425097814,13.9,0,BEER,,Springdale IPASpringdale,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+662425097821,12.08,0,BEER,,Shipping Out BostonJack's Abby,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+662425097890,11.97,2,BEER,,Galaxy BrauJacks Abby,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+669576019245,21.39,0,WINE,,Decoy ChardChard 750ml,"{'department': 'WINE', 'vendor': None, 'description': None}",['high_margin']
+670,0.0,3,BEER,670,NSB Craigerator(6) 4 x 16oz C,"{'department': 'BEER', 'vendor': '6172944233', 'description': None}",['low_margin']
+680203019353,53.49,4,LIQUOR,,Willett BourbonWillett,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+686557533224,6.41,13,Soda,,Hand sanitizerFabrizia,"{'department': 'Soda', 'vendor': None, 'description': None}",['high_margin']
+6976915164486,10.69,1,WINE,,Basso ChiantiPoggio Basso,"{'department': 'WINE', 'vendor': None, 'description': None}",['high_margin']
+720815280137,53.49,5,LIQUOR,,Single GrainIrish Whiskey,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+720815280236,58.84,1,LIQUOR,,Single MaltTeeling,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+721059001298,42.79,5,LIQUOR,,Espolon AnejoNULL,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+723830130067,11.76,0,BEER,,Hazy wonderlagunitas,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+723830981645,11.76,0,BEER,,Hazy MemoryLagunitas,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+735810690997,16.04,0,BEER,,HopulenceWormtown,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+736040537113,32.09,11,LIQUOR,,Banhez MezcalMezcal,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+743041090073,18.18,0,BEER,,Summer 12pkWachusett,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+743041090127,18.52,0,BEER,,IPA Mix PackWachusett,"{'department': 'BEER', 'vendor': None, 'description': None}",['low_margin']
+743041090233,18.52,0,BEER,,Wachu Summer MixWachusett,"{'department': 'BEER', 'vendor': None, 'description': None}",['low_margin']
+743041090356,20.7,0,BEER,,Wally Variety pkWachusett,"{'department': 'BEER', 'vendor': None, 'description': None}",['low_margin']
+744607111317,39.58,6,LIQUOR,,Silverherradura,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+752830259713,19.25,4,BEER,,NSB Briar Weisse4 x 16oz,"{'department': 'BEER', 'vendor': '6172944233', 'description': None}",['high_margin']
+754527000523,12.83,0,BEER,,Trippelnew Belgium,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+793866530025,13.07,0,BEER,,NitroLeft Hand,"{'department': 'BEER', 'vendor': None, 'description': None}",['low_margin']
+8033540100314,16.04,10,WINE,,castello di RaddaChianti Classico,"{'department': 'WINE', 'vendor': None, 'description': None}",['high_margin']
+810879020135,16.04,19,WINE,,Iron Side CabCab,"{'department': 'WINE', 'vendor': None, 'description': None}",['high_margin']
+810879021385,1.07,116,LIQUOR,,Steel Dust 50mlVodka,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+811538010115,4.27,10,LIQUOR,,1800 Silver 50ml1800 Silver,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+811538010122,18.18,2,LIQUOR,,silver 375ml1800 Silver,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+811538010993,19.25,5,LIQUOR,,Classic Marg 1.75mlJose Cuervo,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+811538019156,23.53,4,LIQUOR,,1800 Margarita1800,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+812459012004,51.35,6,LIQUOR,,CalumetBourbon,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+813219020048,37.44,2,LIQUOR,,Teeling 750mlIrish Whiskey,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+817904007949,12.83,0,BEER,,Hazy IPAElysian,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+819578010478,12.83,0,BEER,,Road 2 RunTwo Roads,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+819913012594,21.39,4,Soda,,v oj l,"{'department': 'Soda', 'vendor': None, 'description': None}",['high_margin']
+835229002302,21.79,3,LIQUOR,,mandrinAbsolut,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['low_margin']
+848557000001,8.55,0,BEER,,Crabbies 4pkCrabbies,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+850001147002,17.11,0,BEER,,Mapple nippleLawson,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+850001901116,56.7,5,LIQUOR,,Piggy Back 6yrWhistlepig,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+850006430000,4.27,0,BEER,,Taj 650mlTaj,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+850113006235,15.18,1,BEER,,Zero Gravity Madonna4 x 16oz,"{'department': 'BEER', 'vendor': 'Atlantic', 'description': None}",['high_margin']
+852313004837,18.18,0,BEER,,Press 12pk VarPress,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+852411007563,16.04,9,WINE,,Lifevine Cab SauvLifevine,"{'department': 'WINE', 'vendor': None, 'description': None}",['high_margin']
+852411007570,16.04,1,WINE,,ChardLife Vine,"{'department': 'WINE', 'vendor': None, 'description': None}",['high_margin']
+853239007018,16.04,5,BEER,,Mast Landing DDH Tell Tale4 x 16oz,"{'department': 'BEER', 'vendor': '6172944233', 'description': None}",['high_margin']
+853239007049,16.04,0,BEER,,Dash 4pkMast Landing,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+853239007780,18.18,5,BEER,,Mast Landing Sports & Leisure4 x 16oz,"{'department': 'BEER', 'vendor': '6172944233', 'description': None}",['high_margin']
+854924003773,12.83,0,BEER,,Riverwalk IPAIPA 4pk,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+855067006270,12.83,4,BEER,,Stormalong Red Skies4 x 16oz,"{'department': 'BEER', 'vendor': 'Atlantic', 'description': None}",['high_margin']
+855067006331,11.76,0,BEER,,Blue HillsStormalong,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+855775006647,16.04,0,BEER,,CzarfaceBent Water,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+855775006715,16.04,0,,,FelixBent Water,"{'department': None, 'vendor': None, 'description': None}",['high_margin']
+856011004151,3.21,0,LIQUOR,,Ole Smoky 50mlMoonshine,"{'department': 'LIQUOR', 'vendor': None, 'description': None}","['duplicate_sku', 'high_margin']"
+856011004151,3.21,0,LIQUOR,,Ole Smoky 50mlMoonshine,"{'department': 'LIQUOR', 'vendor': None, 'description': None}","['duplicate_sku', 'high_margin']"
+856592006032,23.53,18,LIQUOR,,Wolf Spirit VodkaBlood Sweat Tears,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+856724006015,56.7,5,LIQUOR,,AnejoCasamigos,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+856724006213,53.49,6,LIQUOR,,ReposadoCasamigos,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+856724006329,58.84,6,LIQUOR,,Casamigos MezcalCasamigos,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+857660004622,13.9,13,WINE,,Luna Di Luna 1.5mlPinot Grigio,"{'department': 'WINE', 'vendor': None, 'description': None}",['high_margin']
+858749003093,11.76,9,WINE,,Poggio ChiantiArgentale,"{'department': 'WINE', 'vendor': None, 'description': None}",['high_margin']
+859199003220,13.9,0,BEER,,BRoseCitizen Cider,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+859660007061,14.97,6,BEER,,1 North haze Ipa1 North,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+859708002171,13.9,3,BEER,,Destihl Synchopathic6 x 12oz,"{'department': 'BEER', 'vendor': '6172944233', 'description': None}",['high_margin']
+859708002553,16.04,0,BEER,,Extended IPADestihl,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+860001867213,14.22,0,BEER,,Hibiscus PomLover Boy,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+860001867237,14.22,0,BEER,,Lemon Ice TeaLover Boy,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+860001867251,14.22,0,BEER,,white tea peachLover boy,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+860265002429,3.2,106,LIQUOR,,Skrewball 50mlPeanut Butter whiskey,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+867636000015,17.11,7,LIQUOR,,Fisher Islandlemonade,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+891278002298,10.69,0,LIQUOR,,Citrus RushMonaco,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+891278002458,10.69,0,LIQUOR,,Blue rushMonaco,"{'department': 'LIQUOR', 'vendor': None, 'description': None}",['high_margin']
+892480001116,10.69,1,BEER,,Amber 4pkCape Ann,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+892480100017,10.69,1,BEER,,Easy IPACape Ann Brew,"{'department': 'BEER', 'vendor': None, 'description': None}",['high_margin']
+898195001014,7.48,4,Soda,,4pk Tonic WaterFever Tree,"{'department': 'Soda', 'vendor': None, 'description': None}",['high_margin']
+898195001656,8.01,4,Soda,,Elder Flower Tonic WaterFever Tree,"{'department': 'Soda', 'vendor': None, 'description': None}",['high_margin']
+929,0.0,1,BEER,929,NSB Briar Weisse(6) 4 x 16oz,"{'department': 'BEER', 'vendor': '6172944233', 'description': None}",['low_margin']
