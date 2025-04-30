@@ -9,7 +9,7 @@ import requests
 def dict_read_csv(stream: Union[str, TextIO, StringIO, requests.Response], delimiter='|'):
     """
     Read CSV data from a stream and return as a list of dictionaries.
-    
+
     Args:
         stream: Input stream (file path, TextIO, StringIO, or requests.Response)
         delimiter: Character used to separate fields in the CSV
@@ -18,7 +18,7 @@ def dict_read_csv(stream: Union[str, TextIO, StringIO, requests.Response], delim
         list: List of dictionaries containing the CSV data
     """
     rows = []
-    
+
     # Handle different types of input
     if isinstance(stream, str):
         # If it's a string, treat it as a file path
@@ -131,7 +131,8 @@ def process_inventory(inventory_data, output_file):
                 price = round(price, 2)
                 markup = 0  # Set markup to 0 when cost is 0
 
-            name = row['ItemName'] + row['ItemName_Extra'] # TODO remove spaces?
+            name = row['ItemName'] + \
+                row['ItemName_Extra']  # TODO remove spaces?
 
             # Clean up properties
             properties = {
@@ -168,8 +169,10 @@ def process_inventory(inventory_data, output_file):
                 'upc': str(row['ItemNum']),  # String
                 'price': float(price),  # BigDecimal
                 'quantity': int(quantity),  # Integer
-                'department_id': str(department_id) if department_id else None,  # String
-                'internal_id': str(internal_id) if internal_id else None,  # String
+                # String
+                'department_id': str(department_id) if department_id else None,
+                # String
+                'internal_id': str(internal_id) if internal_id else None,
                 'name': str(name),  # String
                 'properties': properties,  # Object
                 'tags': tags,  # Array

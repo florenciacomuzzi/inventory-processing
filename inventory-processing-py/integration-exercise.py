@@ -11,24 +11,29 @@ from inventory_processing.object_utils import extract_inventory_object_details
 from inventory_processing.s3_helper import S3Helper
 
 STORAGE_API_URL = os.environ.get('STORAGE_API_URL', 'http://localhost:3000')
-SOURCE_URL = os.environ.get('SOURCE_URL', 'https://bitbucket.org/cityhive/jobs/src/master/integration-eng/integration-entryfile.html')
-PROCESSED_FILE_PATH = os.environ.get('PROCESSED_FILE_PATH', 'processed_inventory.csv')
+SOURCE_URL = os.environ.get(
+    'SOURCE_URL', 'https://bitbucket.org/cityhive/jobs/src/master/integration-eng/integration-entryfile.html')
+PROCESSED_FILE_PATH = os.environ.get(
+    'PROCESSED_FILE_PATH', 'processed_inventory.csv')
+
 
 def parse_arguments():
-    parser = argparse.ArgumentParser(description='Process inventory data from S3')
-    parser.add_argument('--generate_csv', 
-                       action="store_true",
-                       # nargs='?',
-                       help='generate the CSV file with the parsed data')
-    parser.add_argument('--upload', 
-                       action="store_true",
-                       # nargs='?',
-                       help='upload the parsed data as a JSON array to the API')
-    parser.add_argument('--list_uploads', 
-                       action="store_true",
-                       # nargs='?',
-                       help='call the inventory_uploads listing endpoint and print the result')
+    parser = argparse.ArgumentParser(
+        description='Process inventory data from S3')
+    parser.add_argument('--generate_csv',
+                        action="store_true",
+                        # nargs='?',
+                        help='generate the CSV file with the parsed data')
+    parser.add_argument('--upload',
+                        action="store_true",
+                        # nargs='?',
+                        help='upload the parsed data as a JSON array to the API')
+    parser.add_argument('--list_uploads',
+                        action="store_true",
+                        # nargs='?',
+                        help='call the inventory_uploads listing endpoint and print the result')
     return parser.parse_args()
+
 
 if __name__ == '__main__':
     args = parse_arguments()
