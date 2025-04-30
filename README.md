@@ -103,3 +103,70 @@ export SOURCE_DATA_PATH=my_raw_data.csv
 python inventory-processing-py/integration-exercise.py --generate_csv
 ```
 
+## Constraints
+This project was timeboxed to ~2 days.
+
+
+## Potential Improvements
+
+### Python Application
+
+1. **Data Processing Optimization**
+   - Reduce the number of times the source data is read by implementing a single-pass processing approach
+   - Implement streaming processing for large datasets to reduce memory usage
+   - Use generators and iterators for more efficient data handling
+   - Cache intermediate results when possible to avoid redundant calculations
+
+2. **Code Structure and Abstraction**
+   - Create dedicated classes for data transformation and validation
+   - Implement a proper data pipeline pattern with clear separation of concerns
+   - Add type hints and docstrings for better code maintainability
+   - Create reusable components for common operations (e.g., price calculations, data validation)
+
+3. **Error Handling and Logging**
+   - Implement comprehensive error handling for network requests and file operations
+   - Add detailed logging for debugging and monitoring
+   - Create custom exceptions for specific error cases
+   - Add retry mechanisms for network operations
+
+4. **Testing and Quality**
+   - Add unit tests for data transformation logic
+   - Implement integration tests for API interactions
+   - Add performance benchmarks for data processing
+   - Include code coverage reporting
+
+### Ruby on Rails Application
+
+1. **Code Organization**
+   - Implement service objects for business logic
+   - Use form objects for data validation
+   - Create dedicated serializers for API responses
+   - Implement proper error handling with custom error classes
+
+2. **Performance Optimization**
+   - Add database indexes for frequently queried fields
+   - Implement caching for frequently accessed data
+   - Use batch processing for large data imports
+   - Optimize MongoDB queries with proper indexing
+   - Optimize order of model fields for faster queries
+
+3. **API Enhancements**
+   - Add pagination for the inventory uploads listing
+   - Implement filtering and sorting capabilities
+   - Add versioning to the API
+   - Include more detailed statistics in the response
+
+4. **Testing and Documentation**
+   - Add comprehensive test coverage
+   - Implement API documentation using tools like Swagger/OpenAPI
+   - Add performance tests
+   - Include examples in the documentation
+
+5. **Monitoring and Maintenance**
+   - Add health check endpoints
+   - Implement proper logging and monitoring
+   - Add metrics collection for performance tracking
+   - Create maintenance tasks for data cleanup
+
+These improvements would enhance the maintainability, performance, and reliability of both applications while making them more production-ready.
+
