@@ -59,7 +59,7 @@ if __name__ == '__main__':
         bucket = S3Helper(s3_details['bucket'], s3_details['region_code'])
         key_stream = bucket.download_key_with_presigned_url(
             s3_details['object_path'])
-        
+
         if SAVE_SOURCE_DATA:
             response_copy = io.BytesIO(key_stream.content)
             with open(SOURCE_DATA_PATH, 'w') as f:
